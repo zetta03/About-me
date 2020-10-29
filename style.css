@@ -1,11 +1,42 @@
-body { background color: black;
-
+#container {
+	width: 50%;
+	margin: 20px auto 0 auto;
+	padding: 20px;
+	background-color: white;
 }
-
-h1 { color: white;
-
+.floatLeft {
+	float: left;
+	width:48%;
 }
-
-p { 
-    font-family: "asap";
+.floatRight {
+	float: right;
+	width:48%;
+	text-align: right;
+}
+.clearFix {
+	clear:both;
+}
+.smallPic {
+	width:200px;
+}
+#mainButton {
+	padding: 12px;
+	border-radius: 12px;
+	border: 3px solid red;
+	text-decoration: none;
+	color: red;
+}
+.vSpacer {
+	height:12px;
+}
+body {
+	background-color: red;
+	font-family: 'Oxygen', sans-serif;
+}
+.orangeText {
+	color:#FFA000;
+}
+/* comment this out to hide borders */
+* {
+	/*border: 1px solid green;*/
 }
