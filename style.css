@@ -1,11 +1,42 @@
-body { background color: black;
-
+#container {
+	width: 50%;
+	margin: 20px auto 0 auto;
+	padding: 20px;
+	background-color: white;
+}
+.floatLeft {
+	float: left;
+	width:48%;
+}
+.floatRight {
+	float: right;
+	width:48%;
+	text-align: right;
+}
+.clearFix {
+	clear:both;
+}
+.purple {
+    color:#A64AC9
 }
 
-h1 { color: white;
-
+.smallPic {
+	width:200px;
 }
-
-p { 
-    font-family: "asap";
+#mainButton {
+	padding: 12px;
+	border-radius: 12px;
+	border: 3px solid #A64AC9;
+	text-decoration: none;
+	color:#A64AC9;
+}
+.vSpacer {
+	height:12px;
+}
+body {
+	background-color: black;
+	font-family: 'Oxygen', sans-serif;
+}
+.orangeText {
+	color:#FFA000;
 }
